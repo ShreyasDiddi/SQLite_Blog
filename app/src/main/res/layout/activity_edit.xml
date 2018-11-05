@@ -22,7 +22,9 @@
         android:id="@+id/edit_title"
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        style="@style/AlertDialog.AppCompat"/>
+        style="@style/AlertDialog.AppCompat">
+        <requestFocus/>
+    </EditText>
     <View
         android:layout_width="match_parent"
         android:layout_height="50dp"/>
@@ -36,7 +38,8 @@
         android:id="@+id/edit_content"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        style="@style/AlertDialog.AppCompat"/>
+        style="@style/AlertDialog.AppCompat">
+    </EditText>
     <Button
         android:id="@+id/edit_btn"
         android:onClick="edit"
